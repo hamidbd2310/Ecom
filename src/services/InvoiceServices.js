@@ -132,12 +132,6 @@ const CreateInvoiceService=async(req)=>{
 
     let SSLRes= await axios.post(PaymentSetting[0]['init_url'], form);
 
-
-
-
-
-
-
     return{status:"success", data:SSLRes.data};
 }
 
